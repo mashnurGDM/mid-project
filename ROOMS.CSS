@@ -1,0 +1,86 @@
+*{ margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;}
+
+body{background:#91ad76;}
+
+/* header */
+
+.header{width:100%;
+    height: 52px;
+    background:#f3f0eb;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 45px;}
+
+.logo{font-size:26px;
+    color:#222;
+    font-weight:500;}
+
+.menu{display:flex;
+    gap:30px;}
+
+.menu a{color:#111;
+    font-size:13px;}
+
+/* roomcard */
+
+.title{
+text-align:center;
+    margin-top:15px;
+    margin-bottom:25px;}
+
+.title h1{font-size:38px;
+    color:#222;
+    font-weight:700;}
+
+    .roomcard{background:#efefef;
+    border-radius:8px;
+    padding:12px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.15);}
+
+.roomcard img{width:100%;
+    height:225px;
+    object-fit:cover;
+    border-radius:2px;}
+
+.roominfo{margin-top:12px;}
+
+.location{font-size:15px;
+    color:#333;
+    margin-bottom:10px;
+    line-height:22px;}
+
+.price{font-size:17px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:10px;}
+
+.date{ font-size:15px;
+    color:#666;}
+
+/*  r area  */
+
+.roomwrapper{ width:88%;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap:24px;
+    padding-bottom:55px;}
+
+
+
+/*footer */
+
+.footer{ width:100%;
+    height:55px;
+    background:#2c2928;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    color:#cfcfcf;
+    font-size:14px;}
